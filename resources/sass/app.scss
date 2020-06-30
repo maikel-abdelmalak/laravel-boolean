@@ -1,1 +1,11 @@
-//
+header{
+    background-color: red;
+    width: 100%;
+    height: 80px;
+    .header-left{
+        width: 30%;
+        img{
+            height: 70px;
+        }
+    }
+}

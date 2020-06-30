@@ -1,0 +1,14 @@
+header {
+  background-color: red;
+  width: 100%;
+  height: 80px;
+}
+
+header .header-left {
+  width: 30%;
+}
+
+header .header-left img {
+  height: 70px;
+}
+
