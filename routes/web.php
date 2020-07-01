@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/policy', function () {
     return view('policy');
 })->name('policy');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');

@@ -11065,3 +11065,43 @@ section {
   width: 470px;
 }
 
+#domande {
+  padding: 0;
+  display: flex;
+  min-height: 800px;
+}
+
+#domande h2 {
+  margin-bottom: 40px;
+}
+
+#domande .corso {
+  padding: 50px 60px;
+  width: 50%;
+  font-weight: bold;
+}
+
+#domande .prima {
+  background-color: #e8ebf1;
+}
+
+#domande .dopo {
+  background-color: #2d4b66;
+  color: #fff;
+}
+
+#domande .domanda {
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#domande .risposta {
+  font-weight: normal;
+  display: none;
+}
+
+.active {
+  display: block !important;
+}
+

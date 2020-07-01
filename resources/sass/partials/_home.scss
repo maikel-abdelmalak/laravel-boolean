@@ -25,3 +25,37 @@ section{
         }
     }
 }
+
+#domande{
+    padding: 0;
+    display: flex;
+    min-height: 800px;
+    h2{
+        margin-bottom: 40px;
+    }
+    .corso{
+        padding: 50px 60px;
+        width: 50%;
+        font-weight: bold;
+    }
+    .prima{
+        background-color: $secondary_background;
+    }
+    .dopo{
+        background-color: $primary_color;
+        color: #fff;
+    }
+    .domanda{
+        font-size: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .risposta{
+        font-weight: normal;
+        display: none;
+    }
+}
+
+.active{
+    display: block !important;
+}
