@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    padding: 25px;
+    height: 80px;
+    .header-left{
+        float: left;
+        width: 30%;
+        img{
+            height: 55px;
+        }
+    }
+    .header-right{
+        width: 70%;
+        float: left;
+        text-align: right;
+        ul{
+            display: inline-block;
+            list-style: none;
+
+            li{
+                margin: 0 20px;
+                font-size: 14px;
+                display: inline-block;
+                a{
+                    color: $primary_color;
+                }
+            }
+        }
+
+        button{
+            color:#fff;
+            display: inline-block;
+            background-color: $button_color;
+            border-radius: 5px;
+            padding: 10px 15px;
+            border: none;
+        }
+    }
+}

@@ -7,11 +7,11 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <header>
-            <div class="header-left">
-                <img src="https://www.boolean.careers/images/common/logo.png" alt="logo">
-            </div>
-        </header>
-        <p>ciao</p>
+        @include('partials.header')
+        <main>
+            @yield('main')
+        </main>
+        
+        @include('partials.footer')
     </body>
 </html>

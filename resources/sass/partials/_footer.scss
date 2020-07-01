@@ -1,0 +1,32 @@
+footer{
+    color: #fff;
+    background-color: $primary_color;
+    padding: 50px 50px 20px;
+    .container{
+        border-bottom: 2px solid #fff;
+    img{
+        height: 55px;
+        margin-bottom: 15px;
+    }
+    p{
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
+        font-size: 20px;
+        text-align: right;
+        text-transform: capitalize;
+        a{
+            color:#fff;
+        }
+        a:hover{
+            color: #fff;
+            text-decoration-color: #fff;
+        }
+    }}
+
+    .small{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
