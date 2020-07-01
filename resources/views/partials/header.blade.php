@@ -1,11 +1,11 @@
 <header>
     <div class="header-left">
-        <img src="https://www.boolean.careers/images/common/logo.png" alt="logo">
+        <a href="{{route('homepage')}}"><img src="https://www.boolean.careers/images/common/logo.png" alt="logo"></a>
     </div>
     <div class="header-right">
         <ul>
             <li>
-                <a href="#">HOME</a>
+                <a href="{{route('homepage')}}">HOME</a>
             </li>
             <li>
                 <a href="#">CORSO</a>

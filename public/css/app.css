@@ -11033,3 +11033,35 @@ section h2 {
   margin-top: 15px;
 }
 
+section {
+  padding: 50px 20px;
+  color: #2d4b66;
+}
+
+#jumbotron .container {
+  display: flex;
+  align-items: center;
+}
+
+#jumbotron .jumbo-left {
+  float: left;
+  width: 50%;
+}
+
+#jumbotron .jumbo-left h1 {
+  font-size: 40px;
+}
+
+#jumbotron .jumbo-left p {
+  font-weight: bold;
+}
+
+#jumbotron .jumbo-right {
+  float: left;
+  width: 50%;
+}
+
+#jumbotron .jumbo-right img {
+  width: 470px;
+}
+

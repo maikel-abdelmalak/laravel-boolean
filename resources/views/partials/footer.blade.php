@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <img src="https://www.boolean.careers/images/common/logo-white.png" alt="">
+                <a href="{{route('homepage')}}"><img src="https://www.boolean.careers/images/common/logo-white.png" alt=""></a>
                 <p>Sede operativa</p>
                 <p>Via Carducci 12 - 20123 Milano</p>
                 <p>Tel: 02-00000000</p>
@@ -16,7 +16,7 @@
                         <a href="#">domande frequenti</a>
                     </li>
                     <li>
-                        <a href="/policy">privacy policy</a>
+                        <a href="{{route('policy')}}">privacy policy</a>
                     </li>
                     <li>
                         <a href="#">lavora con noi</a>

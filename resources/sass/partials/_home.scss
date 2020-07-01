@@ -1,0 +1,27 @@
+section{
+    padding: 50px 20px;
+    color: $primary_color;
+}
+#jumbotron{
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    .jumbo-left{
+        float: left;
+        width: 50%;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-weight: bold;
+        }
+    }
+    .jumbo-right{
+        float: left;
+        width: 50%;
+        img{
+            width: 470px;
+        }
+    }
+}
