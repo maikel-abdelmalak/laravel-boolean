@@ -16,7 +16,7 @@
                         <a href="#">domande frequenti</a>
                     </li>
                     <li>
-                        <a href="">privacy policy</a>
+                        <a href="/policy">privacy policy</a>
                     </li>
                     <li>
                         <a href="#">lavora con noi</a>
