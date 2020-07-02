@@ -29,7 +29,8 @@ section{
 #domande{
     padding: 0;
     display: flex;
-    min-height: 800px;
+    align-items: stretch;
+    
     h2{
         margin-bottom: 40px;
     }
